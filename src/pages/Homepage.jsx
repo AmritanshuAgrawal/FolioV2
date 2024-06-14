@@ -6,7 +6,7 @@ import Project from "../components/Project";
 import user_info from "../data/user_info.js"; 
 import ToggleTheme from "../components/ToggleTheme.jsx";
 import { AppContext } from "../App.jsx";
-import resume from "../../public/CV-2.pdf";
+import resume from "../../public/resume.pdf";
 import { useContext } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 
@@ -58,11 +58,12 @@ function Homepage() {
                     {
                         user_info.projects.map((project, index) => {
                             return (
-                                <Project key={index} theme={theme} title={project.title} description={project.description} technologies={project.technologies} github={project.github} link={project.link} />
+                                <Project key={index} theme={theme} title={project.title} description1={project.description1} description2={project.description2} />
                             )
                         })
                     }
                 </div>
+
 
                 {/* Skills & Education & Experience */}
                 <div className="flex flex-wrap lg:flex-nowrap justify-between gap-12 mt-20 md:px-16">

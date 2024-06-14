@@ -31,38 +31,22 @@ const info = {
 
     projects: [
         {
-			title: "Draw & Classify",
-			description: "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-			technologies: "https://skillicons.dev/icons?i=react,tailwindcss,tensorflow,0,0&perline=5&theme=",
-			github: "https://github.com/dsbalico/letter-digit-shape-classification",
-            link: "https://letterdigitshape-classification.netlify.app/"
-		},
-
-		{
-			title: "Chatroom",
-			description: "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-			technologies: "https://skillicons.dev/icons?i=react,tailwindcss,firebase,0,0&perline=5&theme=",
-			github: "https://github.com/dsbalico/chatroom",
-            link: "https://thechatroom.netlify.app/"
-		},
-
-		{
-			title: "Sudoku Solver",
-			description: "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-			technologies: "https://skillicons.dev/icons?i=react,tailwindcss,ts,0,0&perline=5&theme=",
-			github: "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-            link: "https://sudoku-solver-sa.netlify.app/"
-		},
-
-		{
-			title: "Probability Pick",
-			description: "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-			technologies: "https://skillicons.dev/icons?i=react,tailwindcss,flask,0,0&perline=5&theme=",
-			github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-            link: "https://probability-pick.netlify.app/"
-		},
+        title: "Localizer, Smart Navigation and Monitoring of Students",
+        description1: "- Led a team to develop a full-stack application to track students indoors and outdoors using RFID and GPS technologies.",
+        description2: "- Recognized with 1st prize at the Tech-Fair of siNUsoid v6.0, the tech-fest of NIIT University.",
+        },
+        {
+            title: "MET, A Video Conferencing Web-Application",
+            description1: "- A MERN-based full-stack application of a video-conferencing, featuring the group-chat, emoji dashboard, enhanced user-experience",
+            description2: "- Designed and developed the user-friendly interface.",
+            },
+        {
+        title: "Sudoku ",
+        description1: "- A MERN based web-application that can generate sudoku problems.",
+        description2: "",
+        },
     ],
-
+      
     education: [
         {
             school: "NIIT University",
