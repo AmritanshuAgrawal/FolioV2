@@ -3,25 +3,25 @@ const info = {
         name: "Amritanshu Agrawal",
         description: " Passionate about data science and proficient in Python, I excel in project management, team coordination, and developing robust solutions that translate business needs into impactful deliverables. With a keen interest in web development and UI/UX design, I am dedicated to continuous learning and enhancing user experiences through innovative workflows.",
         role: "Aspiring Data Scientist",
-        photo: "../photo.jpg",
+        photo: "../photo.jpeg",
         email: "amritanshu.agrawal21@st.niituniversity.in",
     },
 
     socials: {
         twitter: "https://x.com/The_MacGuy",
-		github: "https://github.com/ToBeginToPonderOver",
+		github: "https://github.com/AmritanshuAgrawal",
 		linkedin: "https://www.linkedin.com/in/amritanshu-agrawal/",
 		instagram: "https://www.instagram.com/amritanshu_2913/",
     },
 
     skills: {
         languages: {
-            description: "I possess proficient expertise in a diverse range of programming languages, including Python, MySQL, C++, HTML, CSS, and JavaScript.",
-            image: "https://skillicons.dev/icons?i=py,mysql,cpp,html,css,javascript&perline=6&theme="
+            description: "I possess proficient expertise in programming languages like, Python, MySQL.",
+            image: "https://skillicons.dev/icons?i=py,mysql&perline=6&theme="
         },
         frameworks: {
-            description: "Experienced in a versatile tech stack, including React, Express.js, Node.js, Flask, Tensorflow, sklearn and more.",
-            image: "https://skillicons.dev/icons?i=react,express,nodejs,flask,tensorflow,sklearn&perline=6&theme="
+            description: "Experienced in a versatile tech stack, including TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, SciPy, Flask, and more.",
+            image: "https://skillicons.dev/icons?i=tensorflow,sklearn,flask,react,nodejs&perline=6&theme="
         },
         tools: {
             description: "I am well-versed in utilizing various tools and platforms to enhance the development process, including Git, Github, Netlify, Vercel, VSCode, PyCharm, and more.",
@@ -31,21 +31,22 @@ const info = {
 
     projects: [
         {
-        title: "Localizer, Smart Navigation and Monitoring of Students",
-        description1: "- Led a team to develop a full-stack application to track students indoors and outdoors using RFID and GPS technologies.",
-        description2: "- Recognized with 1st prize at the Tech-Fair of siNUsoid v6.0, the tech-fest of NIIT University.",
+            title: "Financial Transaction Analysis System",
+            description1: "- Developed a machine learning-based fraud detection and customer segmentation system, analyzing over 500,000 transactions.",
+            description2: "- Achieved 99% fraud detection accuracy using Isolation Forest and Neural Networks, with optimized precision and recall.",
         },
         {
-            title: "MET, A Video Conferencing Web-Application",
-            description1: "- A MERN-based full-stack application of a video-conferencing, featuring the group-chat, emoji dashboard, enhanced user-experience",
-            description2: "- Designed and developed the user-friendly interface.",
-            },
+            title: "Resume Analysis Web Application",
+            description1: "- Built a web application to analyze PDF resumes, generating a 'Resume Score' using Groq API and GPT-based prompt chaining.",
+            description2: "- Implemented a drag-and-drop interface with downloadable reports and light/dark mode for enhanced user experience.",
+        },
         {
-        title: "Sudoku ",
-        description1: "- A MERN based web-application that can generate sudoku problems.",
-        description2: "",
+            title: "Sentiment Analysis using Fine-Tuned LLMs",
+            description1: "- Fine-tuned a BERT model for sentiment analysis, achieving 95% accuracy on IMDB movie reviews.",
+            description2: "- Designed a preprocessing pipeline for text data cleaning, tokenization, and batching to optimize model training.",
         },
     ],
+    
       
     education: [
         {
