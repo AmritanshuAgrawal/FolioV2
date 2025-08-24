@@ -1,10 +1,10 @@
 const info = {
     main: {
         name: "Amritanshu Agrawal",
-        description: " Passionate about data science and proficient in Python, I excel in project management, team coordination, and developing robust solutions that translate business needs into impactful deliverables. With a keen interest in web development and UI/UX design, I am dedicated to continuous learning and enhancing user experiences through innovative workflows.",
-        role: "Aspiring Data Scientist",
+        description: "Data Science professional with hands-on experience in building intelligent data pipelines, automating workflows, and delivering business insights through scalable solutions. Skilled in Python, SQL, and modern data stack tools (Snowflake, Airflow, dbt), with expertise in machine learning, LLM-based systems, and data visualization (Tableau, Power BI, Excel). Strong background in driving process improvements, collaborating with cross-functional teams, and transforming raw data into actionable strategies.",
+        role: "Currently a Data Engineer Intern",
         photo: "../photo.jpeg",
-        email: "amritanshu.agrawal21@st.niituniversity.in",
+        email: "amritanshuqaz2913@gmail.com",
     },
 
     socials: {
@@ -65,11 +65,17 @@ const info = {
 
     experience: [
         { 
-            role: "Data Science Intern",
-            company: "Oasis Infobyte",
-            year: "2024",
-            image: "oasis.png"
+            role: "Data Engineer Intern",
+            company: "Thomson Reuters",
+            year: "April 2025 - Present",
+            image: "tr.jpeg"
         },
+        { 
+            role: "Business Analyst Intern",
+            company: "Krutanic Solutions",
+            year: "Jan 2025 - April 2025",
+            image: "Krutanic.png"
+        }
     ],
 
     contact: {

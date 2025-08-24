@@ -10,6 +10,9 @@ import resume from "../../public/resume.pdf";
 import { useContext } from "react";
 import { IoIosArrowForward } from "react-icons/io";
 
+import SkillsSection from "../components/skills.jsx";
+
+
 function Homepage() {
     const {theme, switchTheme} = useContext(AppContext);
 
@@ -68,26 +71,10 @@ function Homepage() {
                 {/* Skills & Education & Experience */}
                 <div className="flex flex-wrap lg:flex-nowrap justify-between gap-12 mt-20 md:px-16">
                     {/* Skills */}
-                    <div>
-                        <div className="p-6 hover:bg-gray-50 transition-all duration-300 hover:dark:bg-[#101e38] md:rounded-xl">
-                            <h4 className="text-lg font-medium text-gray-600 dark:text-gray-300">Programming Languages</h4>
-                            <p className="leading-7 mt-2 text-base font-light text-gray-500 dark:text-gray-300">{user_info.skills.languages.description}</p>
-                            <img className="w-48 mt-4" src={user_info.skills.languages.image + theme} />
-                        </div>
-                        <div className="p-6 hover:bg-gray-50 transition-all duration-300 hover:dark:bg-[#101e38] md:rounded-xl">
-                            <h4 className="text-lg font-medium text-gray-600 dark:text-gray-300">Frameworks & Libraries</h4>
-                            <p className="leading-7 mt-2 text-base font-light text-gray-500 dark:text-gray-300">{user_info.skills.frameworks.description}</p>
-                            <img className="w-48 mt-4" src={user_info.skills.frameworks.image + theme} />
-                        </div>
-                        <div className="p-6 hover:bg-gray-50 transition-all duration-300 hover:dark:bg-[#101e38] md:rounded-xl">
-                            <h4 className="text-lg font-medium text-gray-600 dark:text-gray-300">Tools & Platforms</h4>
-                            <p className="leading-7 mt-2 text-base font-light text-gray-500 dark:text-gray-300">{user_info.skills.tools.description}</p>
-                            <img className="w-48 mt-4" src={user_info.skills.tools.image + theme} />
-                        </div>
-                    </div>
+                    <SkillsSection />
 
                     {/* Experience & Education */}
-                    <div className="w-full px-2 lg:px-0 lg:w-[70%]">
+                    <div className="w-full px-2 lg:px-0 lg:w-[55%]">
                         <div className="border dark:border-gray-500 p-8 rounded-xl mt-8">
                             <div className="flex gap-4">
                                 <AiOutlineSolution className="self-center text-gray-500 dark:text-gray-300" />
@@ -152,15 +139,15 @@ function Homepage() {
                         </a>
                         <a href={user_info.socials.github} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
                             <FaGithub className="self-center text-lg" />
-                            <span className="self-center">Follow on Github</span>
+                            <span className="self-center">View my Github</span>
                         </a>
                         <a href={user_info.socials.twitter} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
                             <FaSquareXTwitter className="self-center text-lg" />
-                            <span className="self-center">Follow on Twitter</span>
+                            <span className="self-center">Connect on Twitter</span>
                         </a>
                         <a href={user_info.socials.instagram} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
                             <FaInstagram className="self-center text-lg" />
-                            <span className="self-center">Follow on Instagram</span>
+                            <span className="self-center">Connect on Instagram</span>
                         </a>
                     </div>
 
